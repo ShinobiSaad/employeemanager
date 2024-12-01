@@ -41,12 +41,6 @@ A scalable and robust REST API for managing employee hierarchies, featuring auth
 
 3. **Configure Environment Variables**
 
-   - Create a `.env` file based on the example:
-
-     ```bash
-     cp .env.example .env
-     ```
-
    - Open `.env` and set your configuration:
 
      ```env
