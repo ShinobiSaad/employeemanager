@@ -1,0 +1,41 @@
+{
+	"name": "dev",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"type": "module",
+	"scripts": {
+		"test": "mocha tests/**/*.test.js --exit",
+		"test:unit": "mocha tests/unit/**/*.test.js",
+		"test:e2e": "mocha tests/e2e/**/*.test.js --exit"
+	},
+	"keywords": [],
+	"author": "Saad Ul Kabir",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.20.3",
+		"compression": "^1.7.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"express-rate-limit": "^7.4.1",
+		"jsonwebtoken": "^9.0.2",
+		"node-cache": "^5.1.2",
+		"pg": "^8.13.1",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.37.5",
+		"sequelize-cli": "^6.6.2",
+		"winston": "^3.17.0"
+	},
+	"devDependencies": {
+		"chai": "^5.1.2",
+		"mocha": "^10.8.2",
+		"nodemon": "^3.1.7",
+		"sinon": "^19.0.2",
+		"supertest": "^7.0.0"
+	}
+}
